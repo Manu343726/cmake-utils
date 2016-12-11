@@ -11,7 +11,7 @@ function(add_conan_library NAME)
     string(TOLOWER "${NAME}" lower)
     set(target "${lower}-conan")
 
-    message(STATUS "SIPLASPLAS CONAN LIBRARY '${target}'")
+    message(STATUS "CONAN LIBRARY '${target}'")
 
     set(CONAN_LIBRARY_DIRS ${CONAN_LIB_DIRS_${upper}})
     set(CONAN_LIBRARIES ${CONAN_LIBS_${upper}})
