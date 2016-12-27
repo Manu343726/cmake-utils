@@ -5,3 +5,4 @@ include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
 include(${CONAN_CMAKE-UTILS_ROOT}/conan.cmake)
+add_conan_library(clang EXTRA_LIBS clang) # Import libclang

@@ -1,3 +1,5 @@
+include(CMakeParseArguments)
+
 function(add_conan_library NAME)
     cmake_parse_arguments(
         CONANLIB
